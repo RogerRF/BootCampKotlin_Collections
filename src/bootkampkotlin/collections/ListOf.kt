@@ -1,13 +1,5 @@
 package bootkampkotlin.collections
 
-data class Funcionario(
-    val nome: String,
-    val salario: Double,
-    val tipoContrato: String
-){
-    override fun toString() = "$nome R$$salario"
-}
-
 fun main(){
 
     val f1 = Funcionario ( "Jonas", 0900.0, "CLT")
